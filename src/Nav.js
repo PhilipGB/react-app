@@ -4,7 +4,7 @@ function Nav() {
     return (
         <div>
             <nav>
-                <a href="#">
+                <a href="https://bigyospeck.github.io/" target="_blank">
                     Philip Burgess
                 </a>
             </nav>
