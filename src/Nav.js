@@ -1,12 +1,7 @@
-import React from 'react';
+import './App.css';
 
-class Nav extends React.Component {
-    constructor(props) {
-      super(props);
-
-    }
-    render() {
-      return (
+function Nav() {
+    return (
         <div>
             <nav class="navbar navbar-expand-lg navbar-dark">
                 <a class="navbar-brand" href="index.html">
@@ -36,6 +31,7 @@ class Nav extends React.Component {
                 </div>
             </nav>
         </div>
-      );
-    }
-  };
+    );
+}
+ 
+export default Nav;
