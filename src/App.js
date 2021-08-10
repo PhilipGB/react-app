@@ -1,13 +1,19 @@
-import './App.css';
-import Nav from './Nav.js'
-import About from './About.js'
+import React from "react"
+import Nav from './components/Nav.js'
+import About from './components/About.js'
+import Projects from './components/Projects.js'
+import Skills from './components/Skills.js'
+import Contact from './components/Contact.js'
 
 function App() {
   return (
-    <div className="App">
+    <main>
       <Nav />
       <About />
-    </div>
+      <Projects />
+      <Skills />
+      <Contact />
+    </main>
   );
 }
 
