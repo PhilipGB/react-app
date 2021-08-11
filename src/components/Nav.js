@@ -1,6 +1,7 @@
 import { ChatAlt2Icon } from "@heroicons/react/solid";
 import React from "react";
 
+
 function Nav() {
     return (
         <header className="bg-gray-900 md:sticky top-0 z-10">
@@ -28,5 +29,5 @@ function Nav() {
         </header>
     );
 }
- 
+
 export default Nav;

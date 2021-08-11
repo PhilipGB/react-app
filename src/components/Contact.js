@@ -1,23 +1,38 @@
+import { UserIcon } from "@heroicons/react/solid";
 import React from "react"
 
 function Contact() {
   return (
-<section id="contact" className="relative">
-      <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
-        <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
-          <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
+    <section id="contact" className="text-gray-400 bg-gray-900 body-font">
+      <div className="container px-5 py-10 mx-auto text-center lg:px-40">
+        <div className="flex flex-col w-full mb-20">
+          <UserIcon className="mx-auto inline-block w-10 mb-4" />
+          <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-green-400">
+            Contact Me
+          </h1>
+        </div>
+        <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
-              <h2 className="title-font font-semibold text-yellow-100 tracking-widest text-xs">
-                EMAIL
-              </h2>
+              <span className="title-font font-semibold text-yellow-100 tracking-widest text-xs">
+                EMAIL:{'\u00A0'} 
+              </span>
               <a 
                 href="mailto: philip@philipburgess.dev" target="_blank" 
                 rel="noopener noreferrer" className="text-indigo-400 leading-relaxed">
                   philip@philipburgess.dev
               </a>
             </div>
+            <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
+              <span className="title-font font-semibold text-yellow-100 tracking-widest text-xs">
+                GITHUB:{'\u00A0'} 
+              </span>
+              <a 
+                href="https://github.com/BigYoSpeck" target="_blank" 
+                rel="noopener noreferrer" className="text-indigo-400 leading-relaxed">
+                  github.com/BigYoSpeck
+              </a>
+            </div>
           </div>
-        </div>
       </div>
     </section>
   );
