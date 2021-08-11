@@ -29,5 +29,5 @@ export const projects = [
   ];
 
   export const skills = [
-    "HTML", "CSS", "JavaScript", "React", "netlify", "Python", "Flask", "SQL", "Java", "C", "Linux"
+    "HTML", "CSS", "JavaScript", "React", "netlify", "Python", "Flask", "SQL", "Java", "C", "Linux", "Git"
   ];
