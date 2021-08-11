@@ -23,7 +23,7 @@ function About() {
         </div>
         <div>
           <img
-            className="object-cover object-center rounded-full h-96 w-96 shadow-2xl"
+            className="object-cover object-center rounded-full h-64 w-64 shadow-2xl"
             alt="Philip Burgess"
             src="./images/IMG_20210331_154028.jpg"
           />

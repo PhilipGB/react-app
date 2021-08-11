@@ -27,3 +27,7 @@ export const projects = [
       github: "https://github.com/BigYoSpeck/",
     }
   ];
+
+  export const skills = [
+    "HTML", "CSS", "JavaScript", "React", "netlify", "Python", "Flask", "SQL", "Java", "C", "Linux"
+  ];
