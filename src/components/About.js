@@ -21,10 +21,10 @@ function About() {
             </a>
           </div>
         </div>
-        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+        <div>
           <img
-            className="object-cover object-center rounded transform scale-75"
-            alt="hero"
+            className="object-cover object-center rounded-full h-96 w-96 shadow-2xl"
+            alt="Philip Burgess"
             src="./images/IMG_20210331_154028.jpg"
           />
         </div>
