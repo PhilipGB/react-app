@@ -19,6 +19,7 @@ function Projects() {
           {projects.map((project) => (
             <a
               href={project.link}
+              href={project.github}
               key={project.image}
               className="sm:w-1/2 w-100 p-4">
               <div className="flex relative">
