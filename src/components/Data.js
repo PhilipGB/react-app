@@ -18,10 +18,10 @@ export const projects = [
       github: "https://github.com/BigYoSpeck/react-app",
     },
     {
-      title: "Future Project",
+      title: "Future Project Placeholder",
       subtitle: "TODO",
       description:
-        "This is a placeholder for a future project",
+        "This is the placeholder for a future project to be added to the site soon (Image from unsplash.com)",
       image: "./images/todo.jpg",
       link: "https://github.com/BigYoSpeck/",
       github: "https://github.com/BigYoSpeck/",
