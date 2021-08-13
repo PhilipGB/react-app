@@ -1,4 +1,4 @@
-import { CheckIcon, StarIcon } from "@heroicons/react/solid";
+import { StarIcon, CheckIcon } from "@heroicons/react/solid";
 import React from "react";
 import { skills } from "./Data.js";
 
