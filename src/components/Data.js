@@ -13,7 +13,7 @@ export const projects = [
       subtitle: "Portfolio",
       description:
         "This is my React and tailwindcss based developer portfolio site",
-      image: "./images/portfolio.jpg",
+      image: "./images/portfolio.gif",
       link: "https://github.com/BigYoSpeck/react-app",
       github: "https://github.com/BigYoSpeck/react-app",
     },
