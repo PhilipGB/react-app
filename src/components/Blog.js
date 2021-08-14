@@ -1,4 +1,3 @@
-import { CodeIcon } from "@heroicons/react/solid";
 import React from "react";
 import { posts } from "./BlogContent.js";
 
