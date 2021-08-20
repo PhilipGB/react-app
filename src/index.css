@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+section {
+    animation: fade 0.8s ease-in;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+}
