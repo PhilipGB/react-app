@@ -23,7 +23,7 @@ export const projects = [
     description:
       "Big Yo Speck News is a Node.js/Express based news API providing articles and commenting in JSON format using a PostgreSQL database",
     image: "./images/todo.jpg",
-    link: "https://bys-news.herokuapp.com/api",
+    link: "https://github.com/BigYoSpeck/bys-news",
     github: "https://github.com/BigYoSpeck/bys-news",
   },
 ];
