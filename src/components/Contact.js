@@ -1,5 +1,5 @@
 import { UserIcon } from "@heroicons/react/solid";
-import React from "react"
+import React from "react";
 
 function Contact() {
   return (
@@ -12,27 +12,33 @@ function Contact() {
           </h1>
         </div>
         <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
-            <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
-              <span className="title-font font-semibold text-yellow-100 tracking-widest text-xs">
-                EMAIL:{'\u00A0'} 
-              </span>
-              <a 
-                href="mailto: philip@philipburgess.dev" target="_blank" 
-                rel="noopener noreferrer" className="text-indigo-400 leading-relaxed">
-                  philip@philipburgess.dev
-              </a>
-            </div>
-            <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
-              <span className="title-font font-semibold text-yellow-100 tracking-widest text-xs">
-                GITHUB:{'\u00A0'} 
-              </span>
-              <a 
-                href="https://github.com/BigYoSpeck" target="_blank" 
-                rel="noopener noreferrer" className="text-indigo-400 leading-relaxed">
-                  github.com/BigYoSpeck
-              </a>
-            </div>
+          <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
+            <span className="title-font font-semibold text-yellow-100 tracking-widest text-xs">
+              EMAIL:{"\u00A0"}
+            </span>
+            <a
+              href="mailto: philip@philipburgess.dev"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-indigo-400 leading-relaxed"
+            >
+              philip@philipburgess.dev
+            </a>
           </div>
+          <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
+            <span className="title-font font-semibold text-yellow-100 tracking-widest text-xs">
+              GITHUB:{"\u00A0"}
+            </span>
+            <a
+              href="https://github.com/PhilipGB"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-indigo-400 leading-relaxed"
+            >
+              github.com/PhilipGB
+            </a>
+          </div>
+        </div>
       </div>
     </section>
   );
