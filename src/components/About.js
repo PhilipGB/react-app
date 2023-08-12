@@ -9,7 +9,7 @@ function About() {
             Hi, I'm Philip Burgess.
           </h1>
           <p className="mb-8 leading-relaxed">
-            I am a programmer from Leeds in the United Kingdom.
+            I am a programmer from Skipton in the United Kingdom.
             This portfolio site was built using the React framework 
             and styled with tailwindcss.
           </p>
