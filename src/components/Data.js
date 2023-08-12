@@ -1,14 +1,5 @@
 export const projects = [
   {
-    title: "BYS News API",
-    subtitle: "News API",
-    description:
-      "BYS News is a Node.js/Express based news API providing articles and commenting in JSON format using a PostgreSQL database",
-    image: "./images/todo.jpg",
-    link: "https://github.com/BigYoSpeck/bys-news",
-    github: "https://github.com/BigYoSpeck/bys-news",
-  },
-  {
     title: "BYS News Front End",
     subtitle: "News Front End",
     description:
@@ -16,6 +7,15 @@ export const projects = [
     image: "./images/bys.gif",
     link: "https://github.com/PhilipGB/bys-news-fe",
     github: "https://github.com/PhilipGB/bys-news-fe",
+  },
+  {
+    title: "BYS News API",
+    subtitle: "News API",
+    description:
+      "BYS News is a Node.js/Express based news API providing articles and commenting in JSON format using a PostgreSQL database",
+    image: "./images/todo.jpg",
+    link: "https://github.com/BigYoSpeck/bys-news",
+    github: "https://github.com/BigYoSpeck/bys-news",
   },
   {
     title: "CS50 Problem Set 9",
