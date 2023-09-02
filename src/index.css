@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 section {
-    animation: fade 0.8s ease-in;
+  animation: fade 0.8s ease-in;
 }
 
 @keyframes fade {
-    0% {
-        opacity: 0;
-    }
+  0% {
+    opacity: 0;
+  }
 }
