@@ -1,3 +1,14 @@
+export const about = {
+  header: "Hi, I'm Philip Burgess.",
+  body: 'I am a programmer from Skipton in the United Kingdom. This portfolio site was built using the React framework and styled with tailwindcss.',
+};
+
+export const contact = {
+  name: 'Philip Burgess',
+  email: 'philip@philipburgess.dev',
+  git: 'github.com/PhilipGB',
+};
+
 export const projects = [
   {
     title: 'BYS News Front End',
@@ -5,7 +16,7 @@ export const projects = [
     description:
       'BYS News is a React based news front end providing articles and commenting connecting to the BYS News Node.js/Express based API',
     image: './images/bys.gif',
-    link: 'https://bys-news.netlify.app/',
+    link: 'https://bys-news.netlify.app',
     github: 'https://github.com/PhilipGB/bys-news-fe',
   },
   {
@@ -23,7 +34,7 @@ export const projects = [
     description:
       'This is my implementation of the CS50 Problem Set 9, Finance running on PythonAnywhere',
     image: './images/cs50pset9.gif',
-    link: 'https://bigyospeck.pythonanywhere.com/login',
+    link: 'https://bigyospeck.pythonanywhere.com',
     github: 'https://github.com/BigYoSpeck/CS50Finance',
   },
   {

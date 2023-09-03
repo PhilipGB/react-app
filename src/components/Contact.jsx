@@ -1,5 +1,5 @@
 import { UserIcon } from '@heroicons/react/24/solid';
-// import React from 'react';
+import { contact } from './Data.js';
 
 function Contact() {
   return (
@@ -17,12 +17,12 @@ function Contact() {
               EMAIL:{'\u00A0'}
             </span>
             <a
-              href='mailto: philip@philipburgess.dev'
+              href={`mailto: ${contact.email}`}
               target='_blank'
               rel='noopener noreferrer'
               className='text-indigo-400 leading-relaxed'
             >
-              philip@philipburgess.dev
+              {contact.email}
             </a>
           </div>
           <div className='lg:w-1/2 px-6 mt-4 lg:mt-0'>
@@ -30,12 +30,12 @@ function Contact() {
               GITHUB:{'\u00A0'}
             </span>
             <a
-              href='https://github.com/PhilipGB'
+              href={`https://${contact.git}`}
               target='_blank'
               rel='noopener noreferrer'
               className='text-indigo-400 leading-relaxed'
             >
-              github.com/PhilipGB
+              {contact.git}
             </a>
           </div>
         </div>

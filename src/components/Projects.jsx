@@ -34,23 +34,30 @@ function Projects() {
                 </h1>
                 <p className='leading-relaxed'>{project.description}</p>
                 <br />
-                <a
-                  href={project.link}
-                  target='_blank'
-                  rel='noopener noreferrer'
-                  className='text-indigo-200'
-                >
-                  Live Link
-                </a>
-                <br />
-                <a
-                  href={project.github}
-                  target='_blank'
-                  rel='noopener noreferrer'
-                  className='text-indigo-200'
-                >
-                  Github
-                </a>
+                <ul>
+                  <li>
+                    <a
+                      href={project.link}
+                      target='_blank'
+                      rel='noopener noreferrer'
+                      className='text-indigo-200'
+                    >
+                      <b>Link:</b>
+                      <br /> {project.link.replace('https://', '')}
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href={project.github}
+                      target='_blank'
+                      rel='noopener noreferrer'
+                      className='text-indigo-200'
+                    >
+                      <b>Github:</b>
+                      <br /> {project.github.replace('https://', '')}
+                    </a>
+                  </li>
+                </ul>
               </div>
             </div>
           ))}
