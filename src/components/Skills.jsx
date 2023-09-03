@@ -1,5 +1,4 @@
 import { StarIcon, CheckIcon } from '@heroicons/react/24/solid';
-// import React from 'react';
 import { skills } from './Data.js';
 
 function Skills() {
